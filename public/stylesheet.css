@@ -41,7 +41,7 @@ Neutral Content Strong
 Global styling
 */
 body {
-    background-color:  #EDF0EC !important;
+    background-color:  #fae3e3 !important;
     color:  #222521 ;
 }
 html {
@@ -204,7 +204,7 @@ project styling
 .list-group-item {
     transition: all 0.3s ease-in-out;
     background-color: #ffcaca;
-    border: 2px solid #222521 !important;
+    border: 2px solid #b41919 !important;
     margin: 0.5%;
     margin-bottom: 10px;
     color: #b41919; /* Light text */
@@ -253,7 +253,7 @@ About page styling
 
 .bold-text {
     font-weight: bold;
-    color: #496742
+    color: #b41919
 }
 
 .skills-list{
@@ -326,7 +326,7 @@ contact styling
 .icon-link {
     position: relative;
     display: inline-block;
-    color: #496742; /* Icon color */
+    color: #b41919; /* Icon color */
     text-decoration: none; /* Remove default underline */
 }
 
@@ -363,13 +363,13 @@ contact styling
 .loader {
     width: 120px;
     aspect-ratio: 1;
-    border: 10px solid rgb(237, 240, 236); /* Matches background color */
+    border: 10px solid #ffcaca; /* Matches background color */
     box-sizing: border-box;
     background: 
-      radial-gradient(farthest-side, #496742 98%, rgba(0,0,0,0)) top,
-      radial-gradient(farthest-side, #496742 98%, rgba(0,0,0,0)) left,
-      radial-gradient(farthest-side, #496742 98%, rgba(0,0,0,0)) right,
-      radial-gradient(farthest-side, #496742 98%, rgba(0,0,0,0)) bottom,
+      radial-gradient(farthest-side, #b41919 98%, rgba(0,0,0,0)) top,
+      radial-gradient(farthest-side, #b41919 98%, rgba(0,0,0,0)) left,
+      radial-gradient(farthest-side, #b41919 98%, rgba(0,0,0,0)) right,
+      radial-gradient(farthest-side, #b41919 98%, rgba(0,0,0,0)) bottom,
       rgb(237, 240, 236); /* Background color */
     background-size: 30px 30px;
     background-repeat: no-repeat;
