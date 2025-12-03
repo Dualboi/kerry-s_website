@@ -71,37 +71,42 @@ nav {
     font-family: "Playwrite IT Moderna", sans-serif;
 }
 
+/* Use transform scaleX for the underline so it doesn't overlay or hide text;
+   push the underline slightly below the text and disable pointer-events. */
 .navbar-brand::after {
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: -3px; /* place slightly below the text to avoid overlap */
     left: 0;
-    width: 0;
+    width: 100%;
     height: 2px; /* Adjust thickness of the underline */
     background-color: #b41919; /* Underline color */
-
-    transition: width 0.3s ease; /* Transition for left-to-right effect */
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease; /* smooth left-to-right effect */
+    pointer-events: none;
 }
 
 .navbar-brand:hover::after {
-    width: 100%; /* Expand the width to full on hover */
-    color: #fbdede;
+    transform: scaleX(1); /* reveal underline on hover */
 }
 
 .nav-link::after {
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: -3px; /* place slightly below the text to avoid overlap */
     left: 0;
-    width: 0;
+    width: 100%;
     height: 2px; /* Adjust thickness of the underline */
     background-color: #b41919; /* Underline color */
-    transition: width 0.3s ease; /* Transition for left-to-right effect */
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease; /* smooth left-to-right effect */
+    pointer-events: none;
 }
 
 .nav-link:hover::after {
-    width: 100%; /* Expand the width to full on hover */
-    color: #fbdede;
+    transform: scaleX(1); /* reveal underline on hover */
 }
 
 /*
