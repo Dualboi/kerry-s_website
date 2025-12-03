@@ -203,17 +203,17 @@ project styling
 /* List group items (the clickable buttons) */
 .list-group-item {
     transition: all 0.3s ease-in-out;
-    background-color: #b41919;
+    background-color: #ffcaca;
     border: 2px solid #222521 !important;
     margin: 0.5%;
     margin-bottom: 10px;
-    color: #ffcaca; /* Light text */
+    color: #b41919; /* Light text */
 }
 
 /* Hover effect for entire button and text */
 .list-group-item:hover {
-    background-color: #ffcaca; /* Light green background */
-    color: #b41919 !important; /* Dark text on hover */
+    background-color: #b41919; /* Light green background */
+    color: #ffcaca !important; /* Dark text on hover */
     cursor: pointer;
 }
 
