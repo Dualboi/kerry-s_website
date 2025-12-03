@@ -85,7 +85,7 @@ nav {
 
 .navbar-brand:hover::after {
     width: 100%; /* Expand the width to full on hover */
-    color: #fbeaea
+    color: #fbeaea;
 }
 
 .nav-link::after {
