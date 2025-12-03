@@ -64,6 +64,7 @@ html {
 .navbar-brand,.nav-link {
     position: relative;
     display: inline-block;
+    color: #b41919; /* Navbar font colour */
 }
 
 .navbar-brand {
