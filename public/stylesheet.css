@@ -370,7 +370,7 @@ footer {
 .loader {
     width: 120px;
     aspect-ratio: 1;
-    border: 10px solid #ffcaca; /* Matches background color */
+    border: 10px solid #fef6f6; /* Matches background color */
     box-sizing: border-box;
     background: 
       radial-gradient(farthest-side, #b41919 98%, rgba(0,0,0,0)) top,
