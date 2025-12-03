@@ -1,0 +1,381 @@
+/* 
+Main styling doc
+
+
+colour scheme as follows
+
+Canvas, main body
+ #EDF0EC 
+
+Card, UI, sub ui and menu's
+ #F5F6F4 
+
+Accent Non-Content Baseline
+ #7E9379 
+
+Accent Content Baseline
+ #5D7756 
+
+Accent Content Strong
+ #42543D 
+
+Accent Content Subdued
+ rgba(66, 84, 61, 0.796) 
+
+Accent Non-Content Strong
+ #5E6E5A 
+
+Neutral Non-Content Strong
+ #30332f 
+
+Neutral Content Strong
+ #222521 
+*/
+
+/* 
+Global styling
+*/
+body {
+    background-color:  #EDF0EC !important;
+    color:  #222521 ;
+}
+html {
+    scroll-behavior: smooth;
+}
+::-moz-selection { /* Code for Firefox */
+    color: #F5F6F4;
+    background: #5E6E5A;
+  }
+  
+  ::selection {
+    color: #F5F6F4;
+    background: #5E6E5A;
+  }
+
+.navbar-custom {
+    background-color:  #496742  !important;
+}
+
+.navbar-brand,.nav-link {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-brand {
+    font-family: "Playwrite IT Moderna", sans-serif;
+}
+
+.navbar-brand::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; /* Adjust thickness of the underline */
+    background-color: #EDF0EC; /* Underline color */
+    transition: width 0.3s ease; /* Transition for left-to-right effect */
+}
+
+.navbar-brand:hover::after {
+    width: 100%; /* Expand the width to full on hover */
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; /* Adjust thickness of the underline */
+    background-color: #EDF0EC; /* Underline color */
+    transition: width 0.3s ease; /* Transition for left-to-right effect */
+}
+
+.nav-link:hover::after {
+    width: 100%; /* Expand the width to full on hover */
+}
+
+/*
+about intro styling
+*/
+
+.about-intro{
+margin-top: 5%;
+}
+
+/* 
+About tech styling
+*/
+.tech-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 15%;
+}
+
+.tech-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.tech-row span {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.tech-row span:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+.tools-frameworks-header{
+    margin-top: 6%;
+}
+
+/* 
+Certification styling 
+*/
+.Certification-row span {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    position: relative; /* Needed for hover effect */
+}
+
+.Credly {
+    text-decoration: none;
+    color: #222521;
+    position: relative; /* Make underline relative to this element */
+}
+
+.Credly::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Slightly below the text */
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #496742;
+    transition: width 0.3s ease;
+}
+
+.Credly:hover::after {
+    width: 100%;
+}
+
+
+/*
+project styling
+*/
+
+/* Header */
+.my-projects-header {
+    margin-bottom: 3%;
+}
+
+/* Primary text color */
+.text-primary {
+    color: #222521  !important;
+}
+
+/* List group items (the clickable buttons) */
+.list-group-item {
+    transition: all 0.3s ease-in-out;
+    background-color: #496742;
+    border: 2px solid #222521 !important;
+    margin: 0.5%;
+    margin-bottom: 10px;
+    color: #F5F6F4; /* Light text */
+}
+
+/* Hover effect for entire button and text */
+.list-group-item:hover {
+    background-color: #EDF0EC; /* Light green background */
+    color: #222521 !important; /* Dark text on hover */
+    cursor: pointer;
+}
+
+/* Remove old styles for links */
+.project-link,
+.experience-link {
+    text-decoration: none !important;
+    color: #EDF0EC !important; /* Inherit from parent li */
+}
+
+
+
+
+/* Content area animation */
+#project-content , #experience-content{
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background:  #F5F6F4 ;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    margin-bottom: 5%;
+}
+
+.project-container, .experience-container{
+    margin-top: 20% !important;
+}
+
+
+/*
+About page styling
+*/
+.profile-image {
+    object-fit: cover; /* Crop the image to fit */
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.bold-text {
+    font-weight: bold;
+    color: #496742
+}
+
+.skills-list{
+    list-style-type: none;
+}
+.skills-list li {
+    font-size: 1.05rem;
+    margin-bottom: 3%;
+}
+
+/*
+contact styling
+*/
+.contact-header{
+    margin-top: 15%;
+}
+
+
+/*
+experience_1 styling
+*/
+.content-container-img{
+    padding: 5%;
+    border-radius: 10px;
+}
+.logo-img {
+    max-width: 40%; /* Scales dynamically */
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    height: auto;
+}
+.bottom-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* 
+experience_2 styling
+*/
+
+/*
+Project 3 styling
+*/
+/* Styling for lists with no bullets but indented items */
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding-left: 20px; /* Indent list items */
+}
+
+ul.no-bullets li {
+    margin-bottom: 5px; /* Optional: adds space between list items */
+    font-size: 16px; /* Customize font size */
+}
+
+/* 
+contact styling
+*/
+.contact-container{
+    margin-bottom: 10%;
+    min-height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    background:  #F5F6F4 ;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+}
+
+.icon-link {
+    position: relative;
+    display: inline-block;
+    color: #496742; /* Icon color */
+    text-decoration: none; /* Remove default underline */
+}
+
+.icon-link i {
+    transition: color 0.3s ease;
+}
+
+/* Underline Effect */
+.icon-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Adjust for spacing */
+    left: 0;
+    width: 0;
+    height: 2px; /* Thickness of underline */
+    background-color: #222521; /* Underline color */
+    transition: width 0.3s ease; /* Smooth transition */
+}
+
+.icon-link:hover i {
+    color: #222521; /* Change icon color on hover */
+}
+
+.icon-link:hover::after {
+    width: 100%; /* Expand underline to full width */
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 120px;
+    aspect-ratio: 1;
+    border: 10px solid rgb(237, 240, 236); /* Matches background color */
+    box-sizing: border-box;
+    background: 
+      radial-gradient(farthest-side, #496742 98%, rgba(0,0,0,0)) top,
+      radial-gradient(farthest-side, #496742 98%, rgba(0,0,0,0)) left,
+      radial-gradient(farthest-side, #496742 98%, rgba(0,0,0,0)) right,
+      radial-gradient(farthest-side, #496742 98%, rgba(0,0,0,0)) bottom,
+      rgb(237, 240, 236); /* Background color */
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    animation: l19 2s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Softer shape */
+}
+
+@keyframes l19 {
+    0%   {background-position: top, left, right, bottom;}
+    25%  {background-position: right, left, top, bottom;}
+    50%  {background-position: bottom, left, top, right;}
+    75%  {background-position: left, right, top, bottom;}
+    100% {background-position: top, left, right, bottom;}
+}
+
