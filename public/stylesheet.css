@@ -177,7 +177,7 @@ Certification styling
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #496742;
+    background-color: #b41919;
     transition: width 0.3s ease;
 }
 
@@ -231,7 +231,7 @@ project styling
     min-height: 300px;
     padding: 20px;
     border-radius: 10px;
-    background:  #F5F6F4 ;
+    background:  #fef6f6 ;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 5%;
     margin-bottom: 5%;
