@@ -354,6 +354,11 @@ contact styling
     width: 100%; /* Expand underline to full width */
 }
 
+.navbar-custom
+{
+    color: #b41919;
+}
+
 /* HTML: <div class="loader"></div> */
 .loader {
     width: 120px;
