@@ -99,29 +99,8 @@ nav {
     transition: width 0.3s ease; /* Transition for left-to-right effect */
 }
 
-.nav-link {
-    position: relative;
-    display: inline-block;
-    color: #b41919; /* Navbar font colour */
-}
-
-.nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px; /* Adjust thickness of the underline */
-    background-color: #b41919; /* Underline color */
-    transition: width 0.3s ease; /* Transition for left-to-right effect */
-}
-
 .nav-link:hover {
-    color: #8a1414 !important; /* Match navbar-brand hover color */
-}
-
-.nav-link:hover::after {
-    width: 100%; /* Expand the width to full on hover */
+    color: #8a1414 !important; /* Darker shade for visibility on hover */
 }
 
 .nav-link:hover::after {
