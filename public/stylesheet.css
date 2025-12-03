@@ -83,11 +83,11 @@ nav {
     transition: width 0.3s ease; /* Transition for left-to-right effect */
 }
 
-.navbar-brand:hover::after {
-    width: 100%; /* Expand the width to full on hover */
-    color: #fbdede;
+.navbar-brand:hover {
+    color: #8a1414 !important; /* Darker shade for visibility on hover */
 }
 
+.navbar-brand:hover::after {
 .nav-link::after {
     content: '';
     position: absolute;
@@ -99,7 +99,13 @@ nav {
     transition: width 0.3s ease; /* Transition for left-to-right effect */
 }
 
+.nav-link:hover {
+    color: #8a1414 !important; /* Darker shade for visibility on hover */
+}
+
 .nav-link:hover::after {
+    width: 100%; /* Expand the width to full on hover */
+}
     width: 100%; /* Expand the width to full on hover */
     color: #fbdede;
 }
