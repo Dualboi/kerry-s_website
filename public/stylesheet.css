@@ -79,11 +79,13 @@ nav {
     width: 0;
     height: 2px; /* Adjust thickness of the underline */
     background-color: #b41919; /* Underline color */
+
     transition: width 0.3s ease; /* Transition for left-to-right effect */
 }
 
 .navbar-brand:hover::after {
     width: 100%; /* Expand the width to full on hover */
+    color: #fbeaea
 }
 
 .nav-link::after {
@@ -99,6 +101,7 @@ nav {
 
 .nav-link:hover::after {
     width: 100%; /* Expand the width to full on hover */
+    color: #fbeaea;
 }
 
 /*
