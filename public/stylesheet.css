@@ -216,11 +216,11 @@ project styling
     cursor: pointer;
 }
 
-/* Remove old styles for links */
+/* Link button colouring e.g navbar font */
 .project-link,
 .experience-link {
     text-decoration: none !important;
-    color: #EDF0EC !important; /* Inherit from parent li */
+    color: #b41919 !important; /* Inherit from parent li */
 }
 
 
