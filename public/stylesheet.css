@@ -221,7 +221,7 @@ project styling
 .project-link,
 .experience-link {
     text-decoration: none !important;
-    color: #b41919 !important; /* Inherit from parent li */
+    color: #fbeaea !important; /* Inherit from parent li */
 }
 
 
