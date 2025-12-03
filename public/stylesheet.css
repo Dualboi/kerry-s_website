@@ -203,7 +203,7 @@ project styling
 /* List group items (the clickable buttons) */
 .list-group-item {
     transition: all 0.3s ease-in-out;
-    background-color: #496742;
+    background-color: #ffcaca;
     border: 2px solid #222521 !important;
     margin: 0.5%;
     margin-bottom: 10px;
@@ -221,7 +221,7 @@ project styling
 .project-link,
 .experience-link {
     text-decoration: none !important;
-    color: #fbeaea !important; /* Inherit from parent li */
+    color: #EDF0EC !important; /* Inherit from parent li */
 }
 
 
