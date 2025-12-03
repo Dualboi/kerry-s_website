@@ -59,6 +59,7 @@ html {
 
 .navbar-custom {
     background-color:  #fcfaee !important;
+    border-bottom: #b41919 2px solid;
 }
 
 .navbar-brand,.nav-link {
@@ -356,6 +357,10 @@ contact styling
 .footer-text
 {
     color: #b41919;
+}
+
+footer-container {
+    border-top: #b41919 2px solid;
 }
 
 /* HTML: <div class="loader"></div> */
