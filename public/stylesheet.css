@@ -41,7 +41,7 @@ Neutral Content Strong
 Global styling
 */
 body {
-    background-color:  #fae3e3 !important;
+    background-color:  #fef6f6 !important;
     color:  #222521 ;
 }
 html {
@@ -58,7 +58,7 @@ html {
   }
 
 .navbar-custom {
-    background-color:  #ffcaca  !important;
+    background-color:  #e5e1ca !important;
 }
 
 .navbar-brand,.nav-link {
