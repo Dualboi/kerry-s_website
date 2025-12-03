@@ -32,6 +32,9 @@ Neutral Content Strong
  #222521 
 */
 
+
+/* main colour #fbeaea */
+
 /* 
 Global styling
 */
@@ -43,17 +46,17 @@ html {
     scroll-behavior: smooth;
 }
 ::-moz-selection { /* Code for Firefox */
-    color: #F5F6F4;
-    background: #5E6E5A;
+    color: #b41919;
+    background: #fbeaea;
   }
   
   ::selection {
-    color: #F5F6F4;
-    background: #5E6E5A;
+    color: #b41919;
+    background: #fbeaea;
   }
 
 .navbar-custom {
-    background-color:  #496742  !important;
+    background-color:  #ffcaca  !important;
 }
 
 .navbar-brand,.nav-link {
@@ -100,7 +103,6 @@ about intro styling
 */
 
 .about-intro{
-margin-top: 5%;
 }
 
 /* 
