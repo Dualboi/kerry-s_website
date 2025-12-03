@@ -41,7 +41,7 @@ Neutral Content Strong
 Global styling
 */
 body {
-    background-color:  #fef6f6;
+    /* background-color:  #fef6f6; */
     color:  #222521 ;
 }
 html {
@@ -85,7 +85,7 @@ nav {
 
 .navbar-brand:hover::after {
     width: 100%; /* Expand the width to full on hover */
-    color: #fbeaea;
+    color: #fbdede;
 }
 
 .nav-link::after {
@@ -101,7 +101,7 @@ nav {
 
 .nav-link:hover::after {
     width: 100%; /* Expand the width to full on hover */
-    color: #fbeaea;
+    color: #fbdede;
 }
 
 /*
