@@ -68,6 +68,7 @@ nav {
     position: relative;
     display: inline-block;
     color: #b41919; /* Navbar font colour */
+    border-bottom: 2px solid transparent; /* Adding invisible border for spacing */
 }
 
 /* Adding special font to main brand name */
@@ -98,7 +99,6 @@ nav {
 /*
 about intro styling
 */
-
 .about-intro{
     margin-top: 4%
 }
