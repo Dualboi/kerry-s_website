@@ -87,7 +87,7 @@ nav {
     color: #8a1414 !important; /* Darker shade for visibility on hover */
 }
 
-.navbar-brand:hover::after {
+.navbar-brand:hover::after,
 .nav-link::after {
     content: '';
     position: absolute;
@@ -105,7 +105,6 @@ nav {
 
 .nav-link:hover::after {
     width: 100%; /* Expand the width to full on hover */
-}
     width: 100%; /* Expand the width to full on hover */
     color: #b41919;
 }
