@@ -80,6 +80,7 @@ nav {
 .nav-link:hover, .navbar-brand:hover {
     color: #8a1414 !important; /* Darker shade for visibility on hover */
     border-bottom: #8a1414 2px solid; /* Underline effect */
+    transition: width 0.3s ease;
 }
 
 /* After hover affect */
@@ -97,7 +98,6 @@ nav {
 .navbar-brand:hover:after, .nav-link:hover:after {
     width: 100%;
 }
-
 
 
 /*
