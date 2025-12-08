@@ -57,24 +57,32 @@ html {
     background: #fbeaea;
   }
 
+/* nav text styling */
+
 nav {
     border-bottom: #b41919 2px solid;
 }
 
+/* color of text and formatting */
 .navbar-brand,.nav-link {
     position: relative;
     display: inline-block;
     color: #b41919; /* Navbar font colour */
 }
 
+/* Adding special font to main brand name */
 .navbar-brand {
     font-family: "Playwrite IT Moderna", sans-serif;
 }
 
+/* Adding hover affect */
 .nav-link:hover, .navbar-brand:hover {
     color: #8a1414 !important; /* Darker shade for visibility on hover */
+    border-bottom: #8a1414 2px solid; /* Underline effect */
+    transition: color 150ms ease, border-bottom 150ms ease; /* Smooth transition */
 }
 
+/* After hover affect */
 .navbar-brand::after, .nav-link:after {
     content: '';
     position: absolute;
