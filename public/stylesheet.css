@@ -80,21 +80,25 @@ nav {
 .nav-link:hover, .navbar-brand:hover {
     color: #8a1414 !important; /* Darker shade for visibility on hover */
     border-bottom: #8a1414 2px solid; /* Underline effect */
-    transition: color 150ms ease, border-bottom 150ms ease; /* Smooth transition */
 }
 
 /* After hover affect */
 .navbar-brand::after, .nav-link:after {
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: -2px; /* Slightly below the text */
     left: 0;
     width: 0;
-    height: 2px; /* Adjust thickness of the underline */
-    background-color: #b41919; /* Underline color */
-
-    transition: width 0.3s ease; /* Transition for left-to-right effect */
+    height: 2px;
+    background-color: #b41919;
+    transition: width 0.3s ease;
 }
+
+.navbar-brand:hover:after, .nav-link:hover:after {
+    width: 100%;
+}
+
+
 
 /*
 about intro styling
