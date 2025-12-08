@@ -362,7 +362,7 @@ footer {
 }
 
 .book-background {
-  background: #fef6f6;
+  background: #b41919;
 }
 
 h1 {
@@ -398,13 +398,13 @@ h1:after {
   width: 30px;
   height: 45px;
   border: 4px solid #ffcaca;
-  border-left: 1px solid #b41919;
+  border-left: 1px solid #ffcaca;
   margin: 0;
   position: absolute;
   right: -4px;
   top: -4px;
   overflow: hidden;
-  background: #b41919;
+  background: #ffcaca;
   transform-style: preserve-3d;
   -webkit-transform-origin: left center;
   transform-origin: left center;
@@ -434,7 +434,7 @@ h1:after {
     transform: rotateY( 0deg);
   }
   20% {
-    background: #b41919;
+    background: #8a1414 ;
   }
   40% {
     background: #b41919;
@@ -453,7 +453,7 @@ h1:after {
     transform: rotateY( 0deg);
   }
   20% {
-    background: #b41919;
+    background: #8a1414;
   }
   40% {
     background: #b41919;
