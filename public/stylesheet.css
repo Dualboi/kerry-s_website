@@ -386,7 +386,7 @@ h1:after {
 }
 
 .book {
-  border: 4px solid #fef6f6;
+  border: 4px solid #b41919;
   width: 60px;
   height: 45px;
   position: relative;
@@ -404,7 +404,7 @@ h1:after {
   right: -4px;
   top: -4px;
   overflow: hidden;
-  background: #b41919;
+  background: #fef6f6;
   transform-style: preserve-3d;
   -webkit-transform-origin: left center;
   transform-origin: left center;
