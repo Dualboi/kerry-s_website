@@ -63,6 +63,10 @@ nav {
     border-bottom: #b41919 2px solid;
 }
 
+.navbar-toggler-icon {
+    color: #b41919; /* Toggler icon color for mobile view burger menu */
+}
+
 /* color of text and formatting */
 .navbar-brand,.nav-link {
     position: relative;
