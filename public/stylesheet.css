@@ -85,16 +85,14 @@ nav {
     left: 0;
     width: 0;
     height: 2px;
-    color: #8a1414 !important; /* Darker shade for visibility on hover */
     background-color: #b41919;
     transition: width 0.3s ease;
 }
 
 .navbar-brand:hover::after, .nav-link:hover::after {
     width: 100%;
+    color: #8a1414 !important; /* Darker shade for visibility on hover */
 }
-
-
 
 /*
 about intro styling
