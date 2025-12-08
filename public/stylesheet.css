@@ -361,8 +361,8 @@ footer {
   box-sizing: border-box;
 }
 
-body {
-  background: rebeccapurple;
+.book-background {
+  background: #fef6f6;
 }
 
 h1 {
@@ -437,12 +437,12 @@ h1:after {
     background: #4b1e77;
   }
   40% {
-    background: rebeccapurple;
+    background: #fef6f6;
     -webkit-transform: rotateY( -180deg);
     transform: rotateY( -180deg);
   }
   100% {
-    background: rebeccapurple;
+    background: #fef6f6;
     -webkit-transform: rotateY( -180deg);
     transform: rotateY( -180deg);
   }
@@ -456,11 +456,11 @@ h1:after {
     background: #4b1e77;
   }
   40% {
-    background: rebeccapurple;
+    background: #fef6f6;
     transform: rotateY( -180deg);
   }
   100% {
-    background: rebeccapurple;
+    background: #fef6f6;
     transform: rotateY( -180deg);
   }
 }
