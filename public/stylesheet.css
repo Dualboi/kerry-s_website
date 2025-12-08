@@ -80,11 +80,10 @@ nav {
 /* Adding hover affect */
 .nav-link:hover, .navbar-brand:hover {
     color: #8a1414 !important; /* Darker shade for visibility on hover */
-    border-bottom: #8a1414 2px solid; /* Underline effect */
 }
 
 /* After hover affect */
-.navbar-brand::after, .nav-link:after {
+.navbar-brand:after, .nav-link:after {
     content: '';
     position: absolute;
     bottom: -2px; /* Slightly below the text */
