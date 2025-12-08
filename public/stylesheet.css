@@ -87,7 +87,7 @@ nav {
     color: #8a1414 !important; /* Darker shade for visibility on hover */
 }
 
-.navbar-brand:hover::after
+
 .nav-link::after {
     content: '';
     position: absolute;
