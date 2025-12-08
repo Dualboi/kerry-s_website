@@ -69,6 +69,7 @@ nav {
     display: inline-block;
     color: #b41919; /* Navbar font colour */
     border-bottom: 2px solid transparent; /* Adding invisible border for spacing */
+    transition: all 0.3s ease; /* Smooth transition for all properties */
 }
 
 /* Adding special font to main brand name */
@@ -80,7 +81,6 @@ nav {
 .nav-link:hover, .navbar-brand:hover {
     color: #8a1414 !important; /* Darker shade for visibility on hover */
     border-bottom: #8a1414 2px solid; /* Underline effect */
-    transition: width 0.3s ease-in;
 }
 
 /* After hover affect */
