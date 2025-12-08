@@ -77,26 +77,23 @@ nav {
     font-family: "Playwrite IT Moderna", sans-serif;
 }
 
-/* Adding hover affect */
-.nav-link:hover, .navbar-brand:hover {
-    color: #8a1414 !important; /* Darker shade for visibility on hover */
-}
-
 /* After hover affect */
-.navbar-brand:after, .nav-link:after {
+.navbar-brand::after, .nav-link::after {
     content: '';
     position: absolute;
     bottom: -2px; /* Slightly below the text */
     left: 0;
     width: 0;
     height: 2px;
+    color: #8a1414 ; /* Darker shade for visibility on hover */
     background-color: #b41919;
     transition: width 0.3s ease;
 }
 
-.navbar-brand:hover:after, .nav-link:hover:after {
+.navbar-brand:hover::after, .nav-link:hover::after {
     width: 100%;
 }
+
 
 
 /*
