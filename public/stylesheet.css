@@ -89,9 +89,12 @@ nav {
     transition: width 0.3s ease;
 }
 
+.navbar-brand:hover, .nav-link:hover {
+    color: #8a1414 !important; /* Darker shade for visibility on hover */
+}
+
 .navbar-brand:hover::after, .nav-link:hover::after {
     width: 100%;
-    color: #8a1414 !important; /* Darker shade for visibility on hover */
 }
 
 /*
