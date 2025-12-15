@@ -367,13 +367,14 @@ footer {
 }
 
 .loader-container {
-    justify-content: center;
-    align-items: center;
+    margin: auto;
 }
 
 .book-background {
   background: #b41919;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
