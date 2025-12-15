@@ -88,12 +88,10 @@ About tech styling
     gap: 20px;
     font-size: 1.2rem;
     margin-bottom: 15px;
-    margin: 0 2% 15px 2%;
     border: 3px #ffcaca solid;
     border-radius: 15px;
     padding: 15px;
     box-sizing: border-box;
-    max-width: 100%;
 }
 
 .tech-row span {
@@ -206,12 +204,11 @@ project styling
 }
 
 .project-container, .experience-container{
-    margin: 20% 2% 0 2% !important;
+    margin-top: 20% !important;
     border: 3px #ffcaca solid;
     border-radius: 15px;
     padding: 20px;
     box-sizing: border-box;
-    max-width: 100%;
 }
 
 
@@ -274,14 +271,13 @@ ul.no-bullets li {
 contact styling
 */
 .contact-container{
-    margin: 0 2% 10% 2%;
+    margin-bottom: 10%;
     min-height: 200px;
     padding: 20px;
     background: #fef6f6;
     border: 3px #ffcaca solid;
     border-radius: 15px;
     box-sizing: border-box;
-    max-width: 100%;
 }
 
 .contact-item {
