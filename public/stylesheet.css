@@ -199,7 +199,6 @@ project styling
     padding: 20px;
     border-radius: 10px;
     background:  #fef6f6 ;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 5%;
     margin-bottom: 5%;
 }
@@ -273,7 +272,6 @@ contact styling
     padding: 20px;
     border-radius: 10px;
     background:  #fef6f6 ;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 5%;
 }
 
