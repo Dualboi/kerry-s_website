@@ -331,7 +331,7 @@ footer {
   
 }
 
-h1 {
+.book-h1 {
   color: #ffcaca;
   text-align: center;
   font-family: sans-serif;
@@ -340,7 +340,7 @@ h1 {
   position: relative;
 }
 
-h1:after {
+.book-h1:after {
   position: absolute;
   content: "";
   -webkit-animation: Dots 2s cubic-bezier(0, .39, 1, .68) infinite;
