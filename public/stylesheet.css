@@ -248,6 +248,7 @@ About page styling
 .profile-image {
     object-fit: cover; /* Crop the image to fit */
     width: 100%;
+    margin-bottom: 4%;
 }
 
 .bold-text {
