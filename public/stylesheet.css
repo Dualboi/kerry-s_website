@@ -273,6 +273,22 @@ contact styling
     border-radius: 5%;
 }
 
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    min-height: 120px; /* Ensures consistent height */
+}
+
+.contact-text {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
 .icon-link {
     position: relative;
     display: inline-block;
@@ -280,6 +296,7 @@ contact styling
     text-decoration: none; /* Remove default underline */
     width: 100%; /* Take full width of container */
     text-align: center; /* Center the icon */
+    margin-top: auto; /* Push icon to bottom */
 }
 
 .icon-link i {
