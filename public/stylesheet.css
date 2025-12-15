@@ -1,36 +1,4 @@
-/* 
-Main styling doc
-
-
-colour scheme as follows
-
-Canvas, main body
- #EDF0EC 
-
-Card, UI, sub ui and menu's
- #F5F6F4 
-
-Accent Non-Content Baseline
- #7E9379 
-
-Accent Content Baseline
- #5D7756 
-
-Accent Content Strong
- #42543D 
-
-Accent Content Subdued
- rgba(66, 84, 61, 0.796) 
-
-Accent Non-Content Strong
- #5E6E5A 
-
-Neutral Non-Content Strong
- #30332f 
-
-Neutral Content Strong
- #222521 
-*/
+/* Main styling doc */
 
 
 /* main colour #fbeaea */
@@ -74,7 +42,7 @@ nav {
     display: inline-block;
     color: #b41919; /* Navbar font colour */
     border-bottom: 2px solid transparent; /* Adding invisible border for spacing */
-    transition: width 0.3s ease; /* Smooth transition for all properties */
+    transition: all 0.3s ease; /* Smooth transition for all properties */
 }
 
 /* Adding special font to main brand name */
@@ -102,12 +70,7 @@ nav {
     width: 100%;
 }
 
-/*
-about intro styling
-*/
-.about-intro{
-    margin-top: 4%
-}
+
 
 /* 
 About tech styling
@@ -251,18 +214,7 @@ About page styling
     margin-bottom: 4%;
 }
 
-.bold-text {
-    font-weight: bold;
-    color: #b41919
-}
 
-.skills-list{
-    list-style-type: none;
-}
-.skills-list li {
-    font-size: 1.05rem;
-    margin-bottom: 3%;
-}
 
 /*
 contact styling
@@ -292,9 +244,7 @@ experience_1 styling
     border-radius: 10px;
 }
 
-/* 
-experience_2 styling
-*/
+
 
 /*
 Project 3 styling
