@@ -286,7 +286,7 @@ contact styling
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .icon-link {
@@ -296,7 +296,7 @@ contact styling
     text-decoration: none; /* Remove default underline */
     width: 100%; /* Take full width of container */
     text-align: center; /* Center the icon */
-    margin-top: auto; /* Push icon to bottom */
+    margin-bottom: auto; /* Push icon to top */
 }
 
 .icon-link i {
