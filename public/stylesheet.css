@@ -366,12 +366,17 @@ footer {
   box-sizing: border-box;
 }
 
+.loader-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 100vh;
+}
+
 .book-background {
   background: #b41919;
   display: flex;
-  justify-content: center;
-  align-items: center;
-    margin: auto;
 }
 
 h1 {
