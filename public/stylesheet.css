@@ -79,6 +79,8 @@ About tech styling
     text-align: center;
     font-family: Arial, sans-serif;
     margin-top: 15%;
+    border: #b41919 3px;
+    border-radius: 15px;
 }
 
 .tech-row {
