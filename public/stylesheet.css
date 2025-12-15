@@ -87,9 +87,9 @@ About tech styling
     flex-wrap: wrap;
     gap: 20px;
     font-size: 1.2rem;
+    margin-bottom: 15px;
     margin-left: 4%;
     margin-right: 4%;
-    margin-bottom: 15px;
     border:3px #ffcaca solid;
     border-radius: 15px;
 }
@@ -198,13 +198,17 @@ project styling
     min-height: 300px;
     padding: 20px;
     border-radius: 10px;
-    background:  #fffbfb ;
+    background:  #fef6f6 ;
     border-radius: 5%;
     margin-bottom: 5%;
 }
 
 .project-container, .experience-container{
     margin-top: 20% !important;
+    margin-left: 4%;
+    margin-right: 4%;
+    border:3px #ffcaca solid;
+    border-radius: 15px;
 }
 
 
@@ -271,8 +275,11 @@ contact styling
     min-height: 200px;
     padding: 20px;
     border-radius: 10px;
-    background:  #fffbfb ;
-    border-radius: 5%;
+    background:  #fef6f6 ;
+    margin-left: 4%;
+    margin-right: 4%;
+    border:3px #ffcaca solid;
+    border-radius: 15px;
 }
 
 .contact-item {
