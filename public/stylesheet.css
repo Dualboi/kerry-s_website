@@ -367,7 +367,6 @@ footer {
 }
 
 .loader-container {
-    margin: auto;
     justify-content: center;
     align-items: center;
     height : 100vh;
