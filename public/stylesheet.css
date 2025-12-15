@@ -367,11 +367,7 @@ footer {
 }
 
 .loader-container {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height : 100vh;
+    margin-top: 20%;
 }
 
 .book-background {
