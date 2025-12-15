@@ -278,10 +278,15 @@ contact styling
     display: inline-block;
     color: #b41919; /* Icon color */
     text-decoration: none; /* Remove default underline */
+    width: 100%; /* Take full width of container */
+    text-align: center; /* Center the icon */
 }
 
 .icon-link i {
     transition: color 0.3s ease;
+    display: inline-block; /* Ensure proper alignment */
+    width: 48px; /* Fixed width for consistent alignment */
+    text-align: center; /* Center the icon within its fixed width */
 }
 
 /* Underline Effect */
