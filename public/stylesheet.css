@@ -296,7 +296,7 @@ contact styling
     margin-top: 15px;
 }
 
-.contact-icon {
+.icon-link {
     position: relative;
     display: inline-block;
     color: #b41919; /* Icon color */
@@ -306,7 +306,7 @@ contact styling
     margin-bottom: auto; /* Push icon to top */
 }
 
-.contact-icon {
+.icon-link i {
     transition: color 0.3s ease;
     display: inline-block; /* Ensure proper alignment */
     width: 48px; /* Fixed width for consistent alignment */
@@ -314,7 +314,7 @@ contact styling
 }
 
 /* Underline Effect */
-.contact-icon::after {
+.icon-link::after {
     content: '';
     position: absolute;
     bottom: -5px; /* Adjust for spacing */
@@ -325,11 +325,11 @@ contact styling
     transition: width 0.3s ease; /* Smooth transition */
 }
 
-.contact-icon:hover i {
+.icon-link:hover i {
     color: #222521; /* Change icon color on hover */
 }
 
-.contact-icon:hover::after {
+.icon-link:hover::after {
     width: 100%; /* Expand underline to full width */
 }
 
