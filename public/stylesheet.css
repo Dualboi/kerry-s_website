@@ -297,16 +297,17 @@ contact styling
 }
 
 .icon-link {
-    position: relative;
     display: inline-block;
     color: #b41919; /* Icon color */
     text-decoration: none; /* Remove default underline */
-    width: 100%; /* Take full width of container */
+    width: auto; /* Don't stretch full width of container */
     text-align: center; /* Center the icon */
     margin-bottom: auto; /* Push icon to top */
 }
 
+/* make the underline relative to the icon itself */
 .contact-icon {
+    position: relative; /* <-- ensure ::after is relative to the icon */
     transition: color 0.3s ease;
     display: inline-block; /* Ensure proper alignment */
     width: 48px; /* Fixed width for consistent alignment */
@@ -318,7 +319,8 @@ contact styling
     content: '';
     position: absolute;
     bottom: -5px; /* Adjust for spacing */
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%); /* center the underline under the icon */
     width: 0;
     height: 2px; /* Thickness of underline */
     background-color: #222521; /* Underline color */
@@ -330,7 +332,7 @@ contact styling
 }
 
 .contact-icon:hover::after {
-    width: 100%; /* Expand underline to full width */
+    width: 100%; /* expands to the icon's width only */
 }
 
 .footer-text
