@@ -306,7 +306,7 @@ contact styling
     margin-bottom: auto; /* Push icon to top */
 }
 
-.icon-link i {
+.contact-icon {
     transition: color 0.3s ease;
     display: inline-block; /* Ensure proper alignment */
     width: 48px; /* Fixed width for consistent alignment */
@@ -314,7 +314,7 @@ contact styling
 }
 
 /* Underline Effect */
-.icon-link::after {
+.contact-icon::after {
     content: '';
     position: absolute;
     bottom: -5px; /* Adjust for spacing */
@@ -325,11 +325,11 @@ contact styling
     transition: width 0.3s ease; /* Smooth transition */
 }
 
-.icon-link:hover i {
+.contact-icon:hover i {
     color: #222521; /* Change icon color on hover */
 }
 
-.icon-link:hover::after {
+.contact-icon:hover::after {
     width: 100%; /* Expand underline to full width */
 }
 
