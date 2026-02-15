@@ -192,7 +192,9 @@ project styling
 }
 
 
-
+.diss_w {
+  text-align: center;
+}
 
 /* Content area animation */
 #project-content , #experience-content{
