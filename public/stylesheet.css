@@ -252,6 +252,9 @@ experience_1 styling
     height: auto;
     border-radius: 10px;
 }
+.education_img {
+  border-radius: 10px;
+}
 
 /* Project 2 styling */
 
