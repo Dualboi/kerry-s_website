@@ -11,7 +11,7 @@ Global styling
 body {
     background-color:  #fef6f6;
     color:  #222521 ;
-    font-family: playfair display, serif;
+    font-family: "Playfair", serif;
 }
 html {
     scroll-behavior: smooth;
