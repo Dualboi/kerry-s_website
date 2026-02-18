@@ -1,8 +1,8 @@
 # Portfolio Showcase
 
-This project presents my portfolio in a clean, professional format, demonstrating my **design** and **development** skills.
+This project presents my clients portfolio in a clean, professional format, demonstrating my **design** and **development** skills.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a3a80fd8-9522-49db-b693-5346b2b5bb52/deploy-status)](https://app.netlify.com/sites/sonnybell/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/686f1c67-9a9f-412a-98d0-c8578b9a5150/deploy-status)](https://app.netlify.com/projects/bookedbykerry/deploys)
 
 ---
 
@@ -18,11 +18,10 @@ This project presents my portfolio in a clean, professional format, demonstratin
 ## To-Do List
 
 - [ ] Fix reload issue (default content not loading when page refreshed)
-- [ ] Add research paper section
 
 ---
 
 ## Live Site
 
-[Visit the live portfolio](https://sonnybell.netlify.app)
+[Visit the live portfolio](https://bookedbykerry.netlify.app/)
 
