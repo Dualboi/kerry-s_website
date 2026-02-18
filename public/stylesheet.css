@@ -278,6 +278,7 @@ contact styling
 .contact-container{
     margin-bottom: 10%;
     min-height: 200px;
+    margin-top: 4%;
     padding: 20px;
     background: #ffffff;
     /* border: 3px #ffcaca solid; */
