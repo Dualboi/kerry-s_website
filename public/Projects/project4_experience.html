@@ -30,19 +30,24 @@
 
         <!-- Work Experience Section -->
         <style>
+            /* Desktop / tablet: cards mimic the outer experience-container border */
             @media (min-width: 577px) {
-            .experience-card {
-                border: 2px solid #ffcaca;
-                border-radius: 12px;
-                padding: 1rem;
-                background-color: #fef6f6;
+                .experience-card {
+                    border: 3px solid #ffcaca; /* same colour/thickness as outer container */
+                    border-radius: 15px;
+                    padding: 1rem;
+                    background-color: #fef6f6;
+                }
             }
-            }
+
+            /* Mobile: remove card styling so only the outer border shows */
             @media (max-width: 576px) {
-            .experience-card {
-                border: none !important;
-                background-color: #fef6f6;
-            }
+                .experience-card {
+                    border: none !important;
+                    background-color: transparent !important;
+                    box-shadow: none !important;
+                    padding: 0;
+                }
             }
         </style>
 
