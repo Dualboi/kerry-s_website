@@ -261,6 +261,24 @@ experience / education image styling
   border-radius: 10px;
 }
 
+/* Education gallery layout */
+.education-gallery {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.education-main-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.education-thumb {
+  width: 90%; /* slightly smaller than the full column for visual balance */
+  height: auto;
+  border-radius: 10px;
+}
+
 /* Project 2 styling */
 
 /*
