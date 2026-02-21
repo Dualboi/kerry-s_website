@@ -29,9 +29,9 @@ html {
 /* nav text styling */
 
 nav {
-    border-bottom: #b41919 2px solid;
-    border-top: #b41919 2px solid;
-    margin-bottom: 4%;
+  border-bottom: #b41919 2px solid;
+  border-top: #b41919 2px solid;
+  margin-bottom: 4%;
 }
 
 /* Change burger menu color */
@@ -40,12 +40,18 @@ nav {
 }
 
 .navbar-custom.sticky-top {
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1030;
-    background-color: #fef6f6; /* ensure solid background */
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  background-color: #fef6f6; /* ensure solid background */
+}
+
+/* Make the injected header wrapper sticky so it stays under the hero image
+   and sticks to the top of the viewport when scrolling */
+#header-container {
+  position: sticky;
+  top: 0;
+  z-index: 1025;
 }
 
 /* color of text and formatting */
