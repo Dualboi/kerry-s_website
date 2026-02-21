@@ -32,6 +32,10 @@ nav {
     border-bottom: #b41919 2px solid;
     border-top: #b41919 2px solid;
     margin-bottom: 4%;
+    position: sticky;   /* or position: fixed; if you want always-on-top */
+    top: 0;
+    z-index: 1020;
+    background-color: #fef6f6;  /* so content doesn’t show through */
 }
 
 /* Change burger menu color */
