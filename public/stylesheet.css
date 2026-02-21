@@ -261,6 +261,11 @@ About page styling
 .profile-image {
     object-fit: cover; /* Crop the image to fit */
     width: 100%;
+}
+
+.header-image {
+   object-fit: cover; /* Crop the image to fit */
+    width: 100%;
     background-color: #fbeaea;
 }
 
