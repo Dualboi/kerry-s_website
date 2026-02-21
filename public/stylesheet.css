@@ -30,6 +30,7 @@ html {
 
 nav {
     border-bottom: #b41919 2px solid;
+    border-top: #b41919 2px solid;
 }
 
 /* Change burger menu color */
