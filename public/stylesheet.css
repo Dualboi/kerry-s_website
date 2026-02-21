@@ -259,6 +259,7 @@ project styling
 About page styling
 */
 .profile-image {
+    object-fit: cover; /* Crop the image to fit */
     width: 100%;
 }
 
