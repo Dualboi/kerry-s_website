@@ -250,8 +250,6 @@ project styling
 
 .project-container, .experience-container{
     margin-top: 5% !important;
-    border: 3px #ffcaca solid;
-    border-radius: 15px;
     padding: 20px;
     box-sizing: border-box;
 }
