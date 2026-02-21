@@ -103,6 +103,7 @@ nav {
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+  border: #8a1414 2px solid; /* Border matching text color */
 }
 
 #myBtn:hover {
