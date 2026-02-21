@@ -307,6 +307,12 @@ experience / education image styling
   height: auto;
   border-radius: 10px;
 }
+
+.education-container{
+  background-color: #fef6f6;
+  border-radius: 15px;
+}
+
 .education_img {
   border-radius: 10px;
 }
