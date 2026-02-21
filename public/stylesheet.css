@@ -254,7 +254,6 @@ project styling
 }
 
 .project-container, .experience-container{
-    margin-top: 5% !important;
     padding: 20px;
     box-sizing: border-box;
 }
