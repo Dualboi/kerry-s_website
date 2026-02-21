@@ -96,17 +96,21 @@ nav {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
+  background-color: #8a1414; /* Set a background color */
+  color: #fef6f6; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #b41919; /* Match hover background color */
+  color: #ffcaca; /* Match hover text color */
+  cursor: pointer;
 }
+
 
 /* 
 About tech styling
