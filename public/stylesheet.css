@@ -205,6 +205,12 @@ project styling
     text-align: center;
 }
 
+.my-projects-header1 {
+    margin-bottom: 3%;
+    margin-top: 4%;
+    text-align: center;
+}
+
 /* Primary text color */
 .text-primary {
     color: #222521  !important;
