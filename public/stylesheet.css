@@ -32,15 +32,20 @@ nav {
     border-bottom: #b41919 2px solid;
     border-top: #b41919 2px solid;
     margin-bottom: 4%;
-    position: sticky;   /* or position: fixed; if you want always-on-top */
-    top: 0;
-    z-index: 1020;
-    background-color: #fef6f6;  /* so content doesn’t show through */
 }
 
 /* Change burger menu color */
 .navbar-custom .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23b41919' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-custom.sticky-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    background-color: #fef6f6; /* ensure solid background */
 }
 
 /* color of text and formatting */
