@@ -17,11 +17,10 @@ This project presents my clients portfolio in a clean, professional format, demo
 
 ## To-Do List
 
-- [ ] Fix reload issue (default content not loading when page refreshed)
-- [ ] Overhaul by removing menu options into one static page
-- [ ] Add menu items to new top menu
-- [ ] Add scroll to top button
-- [ ] Make top navbar sticky
+- [/] Overhaul by removing menu options into one static page
+- [/] Add menu items to new top menu
+- [/] Add scroll to top button
+- [/] Make top navbar sticky
 
 ---
 
